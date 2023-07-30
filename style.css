@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.apply-box{
+    border: 2px solid green;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.6);
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.title-small{
+    font-size: 20px;
+}
+.apply-box h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.input-fo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input,select{
+    height: 40px;
+    width: 265px;
+    margin-bottom: 20px;
+}
